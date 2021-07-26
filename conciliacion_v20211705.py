@@ -147,6 +147,9 @@ def crearDB(cursor):
 
     for i in range(3):
         print("que onda")
+
+    x = 20
+    a = x*x
     # Create table
     cur.execute('''CREATE TABLE IF NOT EXISTS archivos (ID integer PRIMARY KEY AUTOINCREMENT, Nombre text)''')
     

@@ -150,6 +150,10 @@ def crearDB(cursor):
 
     x = 20
     a = x*x
+
+    def nuevo(variable):
+        print(variable)
+        
     # Create table
     cur.execute('''CREATE TABLE IF NOT EXISTS archivos (ID integer PRIMARY KEY AUTOINCREMENT, Nombre text)''')
     

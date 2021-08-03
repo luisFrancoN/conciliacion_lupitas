@@ -144,16 +144,7 @@ def noEncontrados(cur, nomHojas):
     archivo.save(rutaActual + "/Archivos_Conciliados/No_Encontrados.xlsx")
   
 def crearDB(cursor):
-
-    for i in range(3):
-        print("que onda")
-
-    x = 20
-    a = x*x
-
-    def nuevo(variable):
-        print(variable)
-        
+    
     # Create table
     cur.execute('''CREATE TABLE IF NOT EXISTS archivos (ID integer PRIMARY KEY AUTOINCREMENT, Nombre text)''')
     

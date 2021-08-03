@@ -145,6 +145,9 @@ def noEncontrados(cur, nomHojas):
   
 def crearDB(cursor):
     print("siguiendo el curso de git de codigo facilito")
+
+    for i in "palabra":
+        print(i)
     # Create table
     cur.execute('''CREATE TABLE IF NOT EXISTS archivos (ID integer PRIMARY KEY AUTOINCREMENT, Nombre text)''')
     

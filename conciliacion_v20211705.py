@@ -144,7 +144,7 @@ def noEncontrados(cur, nomHojas):
     archivo.save(rutaActual + "/Archivos_Conciliados/No_Encontrados.xlsx")
   
 def crearDB(cursor):
-    
+    print("siguiendo el curso de git de codigo facilito")
     # Create table
     cur.execute('''CREATE TABLE IF NOT EXISTS archivos (ID integer PRIMARY KEY AUTOINCREMENT, Nombre text)''')
     
